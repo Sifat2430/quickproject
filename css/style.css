@@ -1,0 +1,177 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{font-family: 'Montserrat', sans-serif;}
+header{
+
+padding: 20px;
+
+
+
+border-bottom: 2px solid #00008b1f;
+}
+.container-full{
+    padding: 0px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.logo{
+    width: 20%;
+}
+.logo a{}
+.logo a img{}
+nav{
+    width: 80%;
+}
+nav ul{
+    display: flex;
+    justify-content: end;
+    
+    list-style: none;
+}
+nav ul li{
+    
+}
+nav ul li a{
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    display: block;
+}
+.hero-banner{
+    padding: 100px 0;
+    text-align: center;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+.container h1{
+    font-size: 50px;
+    color: darkblue;
+    font-weight: 800;
+    text-align: center;
+}
+.container h1 span{
+    display: block;
+    color: #008aff;
+}
+p{
+
+font-size: 18px;
+
+max-width: 850px;
+
+margin:auto;
+
+text-align: center;
+
+margin-bottom: 50px;
+}
+ .container img{
+    
+ }
+ .feature-section{}
+
+ .flex{
+   
+display: flex;
+ }
+ .column1-2{
+    width: 50%;
+    padding: 15px;
+}
+ h2{
+
+font-size: 50px;
+
+font-weight: 800;
+
+text-align: right;
+
+color: #ff6585;
+
+}
+ h3{
+    font-size: 50px;
+    font-weight: 800;
+    color: darkblue;
+    line-height: 60px;
+ }
+ .text-right{
+    text-align: right;
+}
+
+
+.service-section{
+    margin: 100px 0;
+}
+.mainarea{
+   width: 33.33%;
+   padding: 20px;
+}
+.mainarea div{
+    padding: 50px 25px;
+}
+.service-1{
+    
+    
+    background-color: #ff634821;
+}
+
+
+.service-2{
+ 
+
+    background-color: #5bc9a73d;
+}
+
+.service-3{
+    
+   
+    background-color: #fff2782e;
+}
+h4{
+    font-size: 25px;
+    color: darkblue;
+    margin-top: 15px;
+}
+.service-section img{
+    height: 240px;
+    display: block;
+    margin: auto;
+    padding: 15px;
+}
+.footer-section{}
+.footer-section p{}
+.feature-section p a{}
+footer{
+text-align: center;
+padding: 50px;
+background:blue;
+}
+footer p{
+    
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+footer p a{
+    color: #fff;
+    font-size: 17px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+img{
+    width: 100%;
+}
